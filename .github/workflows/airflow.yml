@@ -1,9 +1,9 @@
 name: Airflow_CI
 on:
   push:
-     branches: [data]
+     branches: [main]
   pull_request:
-     branches: [data]
+     branches: [main]
 
 jobs:
   build:
