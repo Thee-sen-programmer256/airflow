@@ -1,0 +1,2 @@
+[2024-01-16T07:42:31.548+0000] {taskinstance.py:1947} INFO - Dependencies not met for <TaskInstance: BASH_DAG.first_dag scheduled__2024-01-14T00:00:00+00:00 [success]>, dependency 'Task Instance State' FAILED: Task is in the 'success' state.
+[2024-01-16T07:42:31.571+0000] {local_task_job_runner.py:160} INFO - Task is not able to be run
