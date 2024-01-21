@@ -7081,3 +7081,24 @@ SyntaxError: f-string: single '}' is not allowed
 [2024-01-21T20:46:04.785+0000] {logging_mixin.py:188} INFO - [2024-01-21T20:46:04.784+0000] {dag.py:3033} INFO - Sync 1 DAGs
 [2024-01-21T20:46:04.839+0000] {logging_mixin.py:188} INFO - [2024-01-21T20:46:04.838+0000] {dag.py:3820} INFO - Setting next_dagrun for Python_dag_api to 2024-01-21T00:00:00+00:00, run_after=2024-01-22T00:00:00+00:00
 [2024-01-21T20:46:04.881+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/python_task_flow_api.py took 0.189 seconds
+[2024-01-21T20:46:35.053+0000] {processor.py:161} INFO - Started process (PID=6174) to work on /opt/airflow/dags/python_task_flow_api.py
+[2024-01-21T20:46:35.056+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/python_task_flow_api.py for tasks to queue
+[2024-01-21T20:46:35.059+0000] {logging_mixin.py:188} INFO - [2024-01-21T20:46:35.058+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/python_task_flow_api.py
+[2024-01-21T20:46:35.089+0000] {processor.py:840} INFO - DAG(s) 'Python_dag_api' retrieved from /opt/airflow/dags/python_task_flow_api.py
+[2024-01-21T20:46:35.135+0000] {logging_mixin.py:188} INFO - [2024-01-21T20:46:35.135+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-21T20:46:35.176+0000] {logging_mixin.py:188} INFO - [2024-01-21T20:46:35.176+0000] {dag.py:3820} INFO - Setting next_dagrun for Python_dag_api to 2024-01-21T00:00:00+00:00, run_after=2024-01-22T00:00:00+00:00
+[2024-01-21T20:46:35.206+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/python_task_flow_api.py took 0.158 seconds
+[2024-01-21T20:47:05.464+0000] {processor.py:161} INFO - Started process (PID=6195) to work on /opt/airflow/dags/python_task_flow_api.py
+[2024-01-21T20:47:05.467+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/python_task_flow_api.py for tasks to queue
+[2024-01-21T20:47:05.470+0000] {logging_mixin.py:188} INFO - [2024-01-21T20:47:05.470+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/python_task_flow_api.py
+[2024-01-21T20:47:05.500+0000] {processor.py:840} INFO - DAG(s) 'Python_dag_api' retrieved from /opt/airflow/dags/python_task_flow_api.py
+[2024-01-21T20:47:05.560+0000] {logging_mixin.py:188} INFO - [2024-01-21T20:47:05.559+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-21T20:47:05.606+0000] {logging_mixin.py:188} INFO - [2024-01-21T20:47:05.606+0000] {dag.py:3820} INFO - Setting next_dagrun for Python_dag_api to 2024-01-21T00:00:00+00:00, run_after=2024-01-22T00:00:00+00:00
+[2024-01-21T20:47:05.640+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/python_task_flow_api.py took 0.182 seconds
+[2024-01-21T20:47:36.130+0000] {processor.py:161} INFO - Started process (PID=6216) to work on /opt/airflow/dags/python_task_flow_api.py
+[2024-01-21T20:47:36.133+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/python_task_flow_api.py for tasks to queue
+[2024-01-21T20:47:36.137+0000] {logging_mixin.py:188} INFO - [2024-01-21T20:47:36.135+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/python_task_flow_api.py
+[2024-01-21T20:47:36.175+0000] {processor.py:840} INFO - DAG(s) 'Python_dag_api' retrieved from /opt/airflow/dags/python_task_flow_api.py
+[2024-01-21T20:47:36.247+0000] {logging_mixin.py:188} INFO - [2024-01-21T20:47:36.247+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-21T20:47:36.315+0000] {logging_mixin.py:188} INFO - [2024-01-21T20:47:36.315+0000] {dag.py:3820} INFO - Setting next_dagrun for Python_dag_api to 2024-01-21T00:00:00+00:00, run_after=2024-01-22T00:00:00+00:00
+[2024-01-21T20:47:36.364+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/python_task_flow_api.py took 0.245 seconds
