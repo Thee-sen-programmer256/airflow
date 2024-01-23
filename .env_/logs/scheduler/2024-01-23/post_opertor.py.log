@@ -4026,3 +4026,38 @@ airflow.exceptions.AirflowException: The key 'load_data _to_postgres' has to be 
 [2024-01-23T18:26:34.447+0000] {logging_mixin.py:188} INFO - [2024-01-23T18:26:34.447+0000] {dag.py:3033} INFO - Sync 1 DAGs
 [2024-01-23T18:26:34.530+0000] {logging_mixin.py:188} INFO - [2024-01-23T18:26:34.529+0000] {dag.py:3820} INFO - Setting next_dagrun for POSTGRES_CONNECTION to 2024-01-23T00:00:00+00:00, run_after=2024-01-24T00:00:00+00:00
 [2024-01-23T18:26:34.578+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/post_opertor.py took 0.251 seconds
+[2024-01-23T18:27:05.526+0000] {processor.py:161} INFO - Started process (PID=551) to work on /opt/airflow/dags/post_opertor.py
+[2024-01-23T18:27:05.531+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/post_opertor.py for tasks to queue
+[2024-01-23T18:27:05.535+0000] {logging_mixin.py:188} INFO - [2024-01-23T18:27:05.534+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/post_opertor.py
+[2024-01-23T18:27:05.607+0000] {processor.py:840} INFO - DAG(s) 'POSTGRES_CONNECTION' retrieved from /opt/airflow/dags/post_opertor.py
+[2024-01-23T18:27:05.693+0000] {logging_mixin.py:188} INFO - [2024-01-23T18:27:05.693+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-23T18:27:05.877+0000] {logging_mixin.py:188} INFO - [2024-01-23T18:27:05.876+0000] {dag.py:3820} INFO - Setting next_dagrun for POSTGRES_CONNECTION to 2024-01-23T00:00:00+00:00, run_after=2024-01-24T00:00:00+00:00
+[2024-01-23T18:27:05.938+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/post_opertor.py took 0.428 seconds
+[2024-01-23T18:27:36.706+0000] {processor.py:161} INFO - Started process (PID=582) to work on /opt/airflow/dags/post_opertor.py
+[2024-01-23T18:27:36.709+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/post_opertor.py for tasks to queue
+[2024-01-23T18:27:36.711+0000] {logging_mixin.py:188} INFO - [2024-01-23T18:27:36.710+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/post_opertor.py
+[2024-01-23T18:27:36.736+0000] {processor.py:840} INFO - DAG(s) 'POSTGRES_CONNECTION' retrieved from /opt/airflow/dags/post_opertor.py
+[2024-01-23T18:27:36.784+0000] {logging_mixin.py:188} INFO - [2024-01-23T18:27:36.784+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-23T18:27:36.826+0000] {logging_mixin.py:188} INFO - [2024-01-23T18:27:36.825+0000] {dag.py:3820} INFO - Setting next_dagrun for POSTGRES_CONNECTION to 2024-01-23T00:00:00+00:00, run_after=2024-01-24T00:00:00+00:00
+[2024-01-23T18:27:36.856+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/post_opertor.py took 0.155 seconds
+[2024-01-23T18:28:07.339+0000] {processor.py:161} INFO - Started process (PID=613) to work on /opt/airflow/dags/post_opertor.py
+[2024-01-23T18:28:07.342+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/post_opertor.py for tasks to queue
+[2024-01-23T18:28:07.345+0000] {logging_mixin.py:188} INFO - [2024-01-23T18:28:07.344+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/post_opertor.py
+[2024-01-23T18:28:07.372+0000] {processor.py:840} INFO - DAG(s) 'POSTGRES_CONNECTION' retrieved from /opt/airflow/dags/post_opertor.py
+[2024-01-23T18:28:07.432+0000] {logging_mixin.py:188} INFO - [2024-01-23T18:28:07.432+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-23T18:28:07.469+0000] {logging_mixin.py:188} INFO - [2024-01-23T18:28:07.469+0000] {dag.py:3820} INFO - Setting next_dagrun for POSTGRES_CONNECTION to 2024-01-23T00:00:00+00:00, run_after=2024-01-24T00:00:00+00:00
+[2024-01-23T18:28:07.506+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/post_opertor.py took 0.173 seconds
+[2024-01-23T18:28:37.993+0000] {processor.py:161} INFO - Started process (PID=644) to work on /opt/airflow/dags/post_opertor.py
+[2024-01-23T18:28:37.996+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/post_opertor.py for tasks to queue
+[2024-01-23T18:28:37.999+0000] {logging_mixin.py:188} INFO - [2024-01-23T18:28:37.999+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/post_opertor.py
+[2024-01-23T18:28:38.028+0000] {processor.py:840} INFO - DAG(s) 'POSTGRES_CONNECTION' retrieved from /opt/airflow/dags/post_opertor.py
+[2024-01-23T18:28:38.075+0000] {logging_mixin.py:188} INFO - [2024-01-23T18:28:38.075+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-23T18:28:38.118+0000] {logging_mixin.py:188} INFO - [2024-01-23T18:28:38.118+0000] {dag.py:3820} INFO - Setting next_dagrun for POSTGRES_CONNECTION to 2024-01-23T00:00:00+00:00, run_after=2024-01-24T00:00:00+00:00
+[2024-01-23T18:28:38.150+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/post_opertor.py took 0.163 seconds
+[2024-01-23T18:29:08.587+0000] {processor.py:161} INFO - Started process (PID=675) to work on /opt/airflow/dags/post_opertor.py
+[2024-01-23T18:29:08.589+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/post_opertor.py for tasks to queue
+[2024-01-23T18:29:08.592+0000] {logging_mixin.py:188} INFO - [2024-01-23T18:29:08.591+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/post_opertor.py
+[2024-01-23T18:29:08.617+0000] {processor.py:840} INFO - DAG(s) 'POSTGRES_CONNECTION' retrieved from /opt/airflow/dags/post_opertor.py
+[2024-01-23T18:29:08.659+0000] {logging_mixin.py:188} INFO - [2024-01-23T18:29:08.659+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-23T18:29:08.700+0000] {logging_mixin.py:188} INFO - [2024-01-23T18:29:08.700+0000] {dag.py:3820} INFO - Setting next_dagrun for POSTGRES_CONNECTION to 2024-01-23T00:00:00+00:00, run_after=2024-01-24T00:00:00+00:00
+[2024-01-23T18:29:08.736+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/post_opertor.py took 0.158 seconds
