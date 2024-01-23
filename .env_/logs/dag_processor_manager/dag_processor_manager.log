@@ -21314,3 +21314,29 @@ File Path                                    PID  Runtime      # DAGs    # Error
 /opt/airflow/dags/python_dag.py                                     1           0  0.17s           2024-01-23T18:25:02
 /opt/airflow/dags/python_task_flow_api.py                           1           0  0.20s           2024-01-23T18:25:02
 ================================================================================
+[2024-01-23T18:25:44.452+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2024-01-23T18:25:48.504+0000] {manager.py:741} INFO - There are 5 files in /opt/airflow/dags
+[2024-01-23T18:26:02.626+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/du_mssql.py                484  0.01s             0           1  0.08s           2024-01-23T18:25:32
+/opt/airflow/dags/mydag.py                                          1           0  0.20s           2024-01-23T18:25:33
+/opt/airflow/dags/post_opertor.py                                   1           0  0.18s           2024-01-23T18:25:33
+/opt/airflow/dags/python_dag.py                                     1           0  0.19s           2024-01-23T18:25:33
+/opt/airflow/dags/python_task_flow_api.py                           1           0  0.19s           2024-01-23T18:25:33
+================================================================================
+[2024-01-23T18:26:33.276+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/du_mssql.py                515  0.01s             0           1  0.07s           2024-01-23T18:26:02
+/opt/airflow/dags/mydag.py                                          1           0  0.18s           2024-01-23T18:26:04
+/opt/airflow/dags/post_opertor.py                                   1           0  0.18s           2024-01-23T18:26:03
+/opt/airflow/dags/python_dag.py                                     1           0  0.19s           2024-01-23T18:26:04
+/opt/airflow/dags/python_task_flow_api.py                           1           0  0.19s           2024-01-23T18:26:03
+================================================================================
