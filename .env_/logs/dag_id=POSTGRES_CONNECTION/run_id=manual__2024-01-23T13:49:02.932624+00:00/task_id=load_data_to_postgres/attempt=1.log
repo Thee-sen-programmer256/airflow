@@ -1,0 +1,42 @@
+[2024-01-23T13:49:04.060+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: POSTGRES_CONNECTION.load_data_to_postgres manual__2024-01-23T13:49:02.932624+00:00 [queued]>
+[2024-01-23T13:49:04.078+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: POSTGRES_CONNECTION.load_data_to_postgres manual__2024-01-23T13:49:02.932624+00:00 [queued]>
+[2024-01-23T13:49:04.081+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 6
+[2024-01-23T13:49:04.106+0000] {taskinstance.py:2192} INFO - Executing <Task(PostgresOperator): load_data_to_postgres> on 2024-01-23 13:49:02.932624+00:00
+[2024-01-23T13:49:04.111+0000] {standard_task_runner.py:60} INFO - Started process 2922 to run task
+[2024-01-23T13:49:04.115+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'POSTGRES_CONNECTION', 'load_data_to_postgres', 'manual__2024-01-23T13:49:02.932624+00:00', '--job-id', '103', '--raw', '--subdir', 'DAGS_FOLDER/post_opertor.py', '--cfg-path', '/tmp/tmpm5nqvtmy']
+[2024-01-23T13:49:04.124+0000] {standard_task_runner.py:88} INFO - Job 103: Subtask load_data_to_postgres
+[2024-01-23T13:49:04.190+0000] {task_command.py:423} INFO - Running <TaskInstance: POSTGRES_CONNECTION.load_data_to_postgres manual__2024-01-23T13:49:02.932624+00:00 [running]> on host 48444e3206b7
+[2024-01-23T13:49:04.274+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Rhon' AIRFLOW_CTX_DAG_ID='POSTGRES_CONNECTION' AIRFLOW_CTX_TASK_ID='load_data_to_postgres' AIRFLOW_CTX_EXECUTION_DATE='2024-01-23T13:49:02.932624+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-01-23T13:49:02.932624+00:00'
+[2024-01-23T13:49:04.276+0000] {sql.py:276} INFO - Executing: 
+        create table if not exists People ( id  integer ,
+        name character , 
+        phone charater
+        primary key (id))
+[2024-01-23T13:49:04.287+0000] {base.py:83} INFO - Using connection ID 'postgres' for task execution.
+[2024-01-23T13:49:04.296+0000] {base.py:83} INFO - Using connection ID 'postgres' for task execution.
+[2024-01-23T13:49:04.305+0000] {sql.py:432} INFO - Running statement: 
+        create table if not exists People ( id  integer ,
+        name character , 
+        phone charater
+        primary key (id)), parameters: None
+[2024-01-23T13:49:04.307+0000] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/operators/sql.py", line 282, in execute
+    output = hook.run(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 392, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 437, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.SyntaxError: syntax error at or near "("
+LINE 5:         primary key (id))
+                            ^
+
+[2024-01-23T13:49:04.318+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=POSTGRES_CONNECTION, task_id=load_data_to_postgres, execution_date=20240123T134902, start_date=20240123T134904, end_date=20240123T134904
+[2024-01-23T13:49:04.333+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 103 for task load_data_to_postgres (syntax error at or near "("
+LINE 5:         primary key (id))
+                            ^
+; 2922)
+[2024-01-23T13:49:04.375+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-01-23T13:49:04.396+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check
