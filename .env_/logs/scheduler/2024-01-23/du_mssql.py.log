@@ -138,3 +138,59 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'duckdb'
 [2024-01-23T18:22:58.820+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/du_mssql.py
 [2024-01-23T18:22:58.852+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/du_mssql.py took 0.054 seconds
+[2024-01-23T18:23:29.436+0000] {processor.py:161} INFO - Started process (PID=329) to work on /opt/airflow/dags/du_mssql.py
+[2024-01-23T18:23:29.438+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/du_mssql.py for tasks to queue
+[2024-01-23T18:23:29.440+0000] {logging_mixin.py:188} INFO - [2024-01-23T18:23:29.439+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/du_mssql.py
+[2024-01-23T18:23:29.451+0000] {logging_mixin.py:188} INFO - [2024-01-23T18:23:29.449+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/du_mssql.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/du_mssql.py", line 7, in <module>
+    import duckdb
+ModuleNotFoundError: No module named 'duckdb'
+[2024-01-23T18:23:29.453+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/du_mssql.py
+[2024-01-23T18:23:29.480+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/du_mssql.py took 0.049 seconds
+[2024-01-23T18:24:00.157+0000] {processor.py:161} INFO - Started process (PID=360) to work on /opt/airflow/dags/du_mssql.py
+[2024-01-23T18:24:00.159+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/du_mssql.py for tasks to queue
+[2024-01-23T18:24:00.161+0000] {logging_mixin.py:188} INFO - [2024-01-23T18:24:00.160+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/du_mssql.py
+[2024-01-23T18:24:00.172+0000] {logging_mixin.py:188} INFO - [2024-01-23T18:24:00.170+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/du_mssql.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/du_mssql.py", line 7, in <module>
+    import duckdb
+ModuleNotFoundError: No module named 'duckdb'
+[2024-01-23T18:24:00.173+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/du_mssql.py
+[2024-01-23T18:24:00.185+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/du_mssql.py took 0.055 seconds
+[2024-01-23T18:24:30.764+0000] {processor.py:161} INFO - Started process (PID=391) to work on /opt/airflow/dags/du_mssql.py
+[2024-01-23T18:24:30.767+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/du_mssql.py for tasks to queue
+[2024-01-23T18:24:30.769+0000] {logging_mixin.py:188} INFO - [2024-01-23T18:24:30.769+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/du_mssql.py
+[2024-01-23T18:24:30.779+0000] {logging_mixin.py:188} INFO - [2024-01-23T18:24:30.777+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/du_mssql.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/du_mssql.py", line 7, in <module>
+    import duckdb
+ModuleNotFoundError: No module named 'duckdb'
+[2024-01-23T18:24:30.781+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/du_mssql.py
+[2024-01-23T18:24:30.809+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/du_mssql.py took 0.049 seconds
+[2024-01-23T18:25:01.374+0000] {processor.py:161} INFO - Started process (PID=422) to work on /opt/airflow/dags/du_mssql.py
+[2024-01-23T18:25:01.377+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/du_mssql.py for tasks to queue
+[2024-01-23T18:25:01.378+0000] {logging_mixin.py:188} INFO - [2024-01-23T18:25:01.378+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/du_mssql.py
+[2024-01-23T18:25:01.388+0000] {logging_mixin.py:188} INFO - [2024-01-23T18:25:01.386+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/du_mssql.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/du_mssql.py", line 7, in <module>
+    import duckdb
+ModuleNotFoundError: No module named 'duckdb'
+[2024-01-23T18:25:01.390+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/du_mssql.py
+[2024-01-23T18:25:01.417+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/du_mssql.py took 0.048 seconds
