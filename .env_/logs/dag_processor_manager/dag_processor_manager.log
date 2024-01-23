@@ -21302,3 +21302,15 @@ File Path                                    PID  Runtime      # DAGs    # Error
 /opt/airflow/dags/python_dag.py                                     1           0  0.17s           2024-01-23T18:24:32
 /opt/airflow/dags/python_task_flow_api.py                           1           0  0.19s           2024-01-23T18:24:31
 ================================================================================
+[2024-01-23T18:25:31.959+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/du_mssql.py                453  0.01s             0           1  0.08s           2024-01-23T18:25:01
+/opt/airflow/dags/mydag.py                                          1           0  0.16s           2024-01-23T18:25:02
+/opt/airflow/dags/post_opertor.py                                   1           0  0.20s           2024-01-23T18:25:02
+/opt/airflow/dags/python_dag.py                                     1           0  0.17s           2024-01-23T18:25:02
+/opt/airflow/dags/python_task_flow_api.py                           1           0  0.20s           2024-01-23T18:25:02
+================================================================================
